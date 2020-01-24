@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+        
+    <!-- meta for mobs -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+    <!--internet explorer-->
+    <meta http-equiv="x-uacompataple" content="IE=edge">
+        
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <title>form</title>
+        
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!--fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/3262c2b10b.js"></script>
+        
+    <!--my style-->
+    <link rel="stylesheet" href="css/css.css">
+  </head>
+  <body class="overlay">
+    <div class="cover">
+      <!--start Navbar-->
+      <nav class="navbar navbar-dark bg-dark justify-content-between">
+        <a class="navbar-brand"></a>
+        <form class="form-inline my-2 mx-2">
+          <button class="btn btn-outline-light btn-light my-2 mx-2 mx-sm-0 my-sm-0" type="submit">Log IN</button>
+        </form>
+      </nav>
+      <nav class="navbar d-flex justify-content-center">
+        <a class="navbar-brand mb-0 h1 d-flex justify-content-center" href="#">
+          <img class="img2 w-100 h-100" src="images/robotronics.png" alt="">
+        </a>
+      </nav>
+      <!--end Navbar-->
+      <!---->
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-12">
+            <div class="form-header text-center">
+              <a href="#" class="d-inline-block">#Academic Programs</a>
+              <h3>Register for the course online</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-5">
+        <form id="regForm" class="" action="">
+          <!-- One "tab" for each step in the form: -->
+          <div class="form-content">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Team Name</label>
+              <input class="form-control" type="text" placeholder="Enter the Team Name Here" oninput="this.className = ''">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Leader Name</label>
+              <input class="form-control" type="text" placeholder="Enter the Leader Name Here" oninput="this.className = ''">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Leader Phone</label>
+              <input class="form-control" type="tel" placeholder="Enter the Phone Number" oninput="this.className = ''">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Leader Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" oninput="this.className = ''">
+            </div>
+            <div class="form-group">
+              <label for="totalMembers">team Number</label>
+                <select class="form-control" id="totalMembers">
+                  <option value="none">Just Me</option>
+                  <option value="one">1</option>
+                  <option value="two">2</option>
+                  <option value="three">3</option>
+                  <option value="four">4</option>
+                  <option value="five">5</option>
+                </select>
+            </div>
+            <div class="team-members">
+              <div class="one">
+                <div class="form-group mt-5">
+                  <label for="exampleFormControlInput1">Member(1) Name</label>
+                    <input class="form-control" type="text" placeholder="Enter Member Name Here" oninput="this.className = ''">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Member(1) Phone</label>
+                  <input class="form-control" type="tel" placeholder="Enter the Phone Number" oninput="this.className = ''">
+                </div>
+              </div>
+              <div class="two">
+                <div class="form-group mt-5">
+                  <label for="exampleFormControlInput1">Member(2) Name</label>
+                  <input class="form-control" type="text" placeholder="Enter Member Name Here" oninput="this.className = ''">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Member(2) Phone</label>
+                  <input class="form-control" type="tel" placeholder="Enter the Phone Number" oninput="this.className = ''">
+                </div>
+              </div>
+              <div class="three">
+                <div class="form-group mt-5">
+                  <label for="exampleFormControlInput1">Member(3) Name</label>
+                  <input class="form-control" type="text" placeholder="Enter Member Name Here" oninput="this.className = ''">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Member(3) Phone</label>
+                  <input class="form-control" type="tel" placeholder="Enter the Phone Number" oninput="this.className = ''">
+                </div>
+              </div>
+              <div class="four">
+                <div class="form-group mt-5">
+                  <label for="exampleFormControlInput1">Member(4) Name</label>
+                  <input class="form-control" type="text" placeholder="Enter Member Name Here" oninput="this.className = ''">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Member(4) Phone</label>
+                  <input class="form-control" type="tel" placeholder="Enter the Phone Number" oninput="this.className = ''">
+                </div>
+              </div>
+              <div class="five">
+                <div class="form-group mt-5">
+                  <label for="exampleFormControlInput1">Member(5) Name</label>
+                  <input class="form-control" type="text" placeholder="Enter Member Name Here" oninput="this.className = ''">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Member(5) Phone</label>
+                  <input class="form-control" type="tel" placeholder="Enter the Phone Number" oninput="this.className = ''">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn mt-3 float-right">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="page-footer font-small text-light bg-dark pt-4">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <small class="text-muted">MANO</small>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+
+      <!-- Include js plugin --> 
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!--my js-->
+      <script src="js/mainly.js"></script>
+  </body>
+</html>
